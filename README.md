@@ -1,7 +1,7 @@
 # TV Show Tracker
 
 ## Description:
-Create a TypeScript application for Smart TVs that helps users track their favorite TV shows. The application will allow users to add, remove, and view details of the TV shows they follow, as well as filter shows based on genre and search for specific shows.
+Create a TypeScript application for Smart TVs that helps users track their favorite TV shows. The application will allow users to add, remove, and view details of the TV shows they follow, as well as filter shows based on genre and search for specific shows. Use TypeScript features like type annotations, interfaces, and enums to enhance code readability and maintainability.
 
 Requirements:
 
@@ -14,4 +14,4 @@ Requirements:
 7. Add a "searchShows" function that allows users to search for a specific TV show by title, genre, or status. This function should return an array of matching TVShow objects.
 8. Implement a simple user interface that allows users to interact with the application. Include options for adding and removing shows, displaying the list of shows, filtering by genre, and searching for shows.
 9. Add error handling to ensure that users cannot add duplicate shows, remove non-existent shows, or search for invalid genres or statuses.
-10. Use TypeScript features like type annotations, interfaces, and enums to enhance code readability and maintainability.
+
