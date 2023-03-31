@@ -3,7 +3,9 @@
 ## Description:
 Create a TypeScript application for Smart TVs that helps users track their favorite TV shows. The application will allow users to add, remove, and view details of the TV shows they follow, as well as filter shows based on genre and search for specific shows. Use TypeScript features like type annotations, interfaces, and enums to enhance code readability and maintainability.
 
-Requirements:
+## Requirements:
+
+Your code should follow Fx's Coding standards and include unit tests for the features that are mentioned here.
 
 1. Create a "TVShow" class with properties like "title", "genre", "rating", "status" (e.g., ongoing, completed, or canceled), and "airingDate". Include a constructor to initialize these properties and methods to get and set their values. Use primitive data types, such as strings, numbers, and booleans, to represent the properties of the TVShow class. Use arrays to store a list of genres and status options.
 2. Implement a "loadShows" function that loads a series of "TVShow" objects from the JSON file included in the project.
