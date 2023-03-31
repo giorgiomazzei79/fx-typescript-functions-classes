@@ -1,15 +1,23 @@
-class TVShow {
-    
+export interface TVShowInterface {
+    _title: string
+    _genre: [Genre]
+    _rating: number
+    _status: [Status]
+    _airingDate: string
+}
+
+export class TVShow implements TVShowInterface {
+
     _title: string
     _genre: [Genre]
     _rating: number
     _status: [Status]
     _airingDate: string
 
-    constructor(tvShowInitializer: tvShowInterface) {
+    constructor(tvShowInitializer: tvShowInitializerInterface) {
         this._title = tvShowInitializer.title,
         this._genre = [tvShowInitializer.genre],
-        this._rating = tvShowInitializer.rating; 
+        this._rating = tvShowInitializer.rating;
         this._status = [tvShowInitializer.status];
         this._airingDate = tvShowInitializer.airingDate;
     }
@@ -53,26 +61,26 @@ class TVShow {
     public set airingDate(airingDate: string) {
         this._airingDate = airingDate;
     }
-  }
+}
 
-  enum Genre {
+export enum Genre {
     Crime = "Crime",
     Fantasy = "Fantasy",
     Comedy = "Comedy",
     SciFi = "Sci-Fi",
     Action = "Action",
-  }
+}
 
-  enum Status {
-    Ongoing = "Ongoing", 
-    Completed = "Completed", 
+export enum Status {
+    Ongoing = "Ongoing",
+    Completed = "Completed",
     Canceled = "Canceled",
-  }
+}
 
-  interface tvShowInterface {
+export interface tvShowInitializerInterface {
     title: string
     genre: Genre; //enum
-    rating: number 
+    rating: number
     status: Status; //enum
     airingDate: string
-  }
+}
