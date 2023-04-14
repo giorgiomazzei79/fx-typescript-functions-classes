@@ -11,9 +11,8 @@ Your code should follow Fx's Coding standards and include unit tests for the fea
 2. Implement a "loadShows" function that loads a series of "TVShow" objects from the JSON file included in the project.
 3. Implement an "addShow" function to add a new TV show to an array of "TVShow" objects. Overload this function to allow users to add shows by providing either an object of the TVShow class or individual properties.
 4. Implement a "removeShow" function that takes the title of a TV show as an argument and removes it from the array of TVShow objects.
-5. Create a "renderShows" function that displays the list of TV shows in a user-friendly format on the screen.
-6. Implement a "filterByGenre" function that takes a genre as an argument and returns an array of TVShow objects that belong to the specified genre.
-7. Add a "searchShows" function that allows users to search for a specific TV show by title, genre, or status. This function should return an array of matching TVShow objects.
-8. Implement a simple user interface that allows users to interact with the application. Include options for adding and removing shows, displaying the list of shows, filtering by genre, and searching for shows.
+5. Implement a "filterByGenre" function that takes a genre as an argument and returns an array of TVShow objects that belong to the specified genre.
+6. Add a "searchShows" function that allows users to search for a specific TV show by title, genre, or status. This function should return an array of matching TVShow objects.
+7. Implement a simple user interface that allows users to interact with the application. Include options for adding and removing shows, displaying the list of shows, filtering by genre, and searching for shows. When doing that create a "renderShows" function that displays the list of TV shows in a user-friendly format on the screen.
 9. Add error handling to ensure that users cannot add duplicate shows, remove non-existent shows, or search for invalid genres or statuses.
 
