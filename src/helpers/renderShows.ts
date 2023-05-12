@@ -8,7 +8,7 @@ const renderShows = (shows: TVShow[]): void => {
         console.log(`rating - ${show.rating}`)
         console.log(`status - ${show.status}`)
         console.log(`airingDate - ${show.airingDate}`)
-        if (index <= array.length) {
+        if (index < array.length-1) {
             console.log("<----------------->")
         }
     });
