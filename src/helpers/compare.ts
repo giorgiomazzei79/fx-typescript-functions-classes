@@ -7,3 +7,5 @@ const compare = <ObjectToCompare>(obj1: ObjectToCompare, obj2: ObjectToCompare, 
     }
     return 0
 }
+
+export default compare

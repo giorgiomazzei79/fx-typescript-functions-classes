@@ -1,7 +1,7 @@
-import { TVShowInterface, TVShow, tvShowInitializerInterface, Genre, Status } from "../models/tvshow"
+import { TVShow, tvShowInitializerInterface, Genre, Status } from "../models/tvshow"
 import tvShows from '../../tvShows.json';
 
-const loadShows = () => {
+const loadShows = (): TVShow[] => {
 
     const tvShowsList = tvShows.map(tvShow => {
 
