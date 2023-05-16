@@ -1,7 +1,7 @@
 import { TVShow, tvShowInitializerInterface, Genre, Status } from "../models/tvshow"
 import tvShows from '../../tvShows.json';
 
-const loadShows = (): TVShow[] => {
+export const loadShows = (): TVShow[] => {
 
     const tvShowsList = tvShows.map(tvShow => {
 
@@ -58,5 +58,3 @@ const loadShows = (): TVShow[] => {
 
     return tvShowsList
 }
-
-export default loadShows

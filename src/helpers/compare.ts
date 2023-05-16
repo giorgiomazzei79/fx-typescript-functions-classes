@@ -1,4 +1,4 @@
-const compare = <ObjectToCompare>(obj1: ObjectToCompare, obj2: ObjectToCompare, k: keyof ObjectToCompare): number => {
+export const compare = <ObjectToCompare>(obj1: ObjectToCompare, obj2: ObjectToCompare, k: keyof ObjectToCompare): number => {
     if (obj1[k] < obj2[k]) {
         return -1
     }
@@ -7,5 +7,3 @@ const compare = <ObjectToCompare>(obj1: ObjectToCompare, obj2: ObjectToCompare, 
     }
     return 0
 }
-
-export default compare
