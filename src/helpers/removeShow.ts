@@ -1,7 +1,3 @@
 import { TVShow } from "../models/tvshow";
 
-export const removeShow = (tvShowsList: TVShow[], title: string): TVShow[] => {
-    return tvShowsList.filter((tvShow: TVShow)=>{
-        return tvShow.title === title
-    })
-}
+export const removeShow = (tvShowsList: TVShow[], title: string): TVShow[] => tvShowsList.filter((tvShow: TVShow) => tvShow.title === title)
