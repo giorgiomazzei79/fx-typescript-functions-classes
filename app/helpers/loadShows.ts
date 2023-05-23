@@ -1,5 +1,5 @@
 import { TVShow, tvShowInitializerInterface, Genre, Status } from "../models/tvshow"
-import tvShows from '../../tvShows.json';
+import tvShows from '../../json/tvShows.json';
 
 export const loadShows = (): TVShow[] => {
 
